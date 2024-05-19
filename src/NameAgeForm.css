@@ -1,0 +1,74 @@
+form {
+  max-width: 600px;
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.108); /* White background with opacity */
+  backdrop-filter: blur(10px); /* Blur effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border: 2px solid rgba(255, 255, 255, 0.472); /* Light border */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%; /* Ensure the container takes full width */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-image: url('backgroundimg.jpeg'); /* Replace with your image path */
+  background-color: linear-gradient(rgb(159, 228, 255), rgb(177, 255, 177));
+  background-image: url("backgroundimg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center;
+  background-size: cover;
+  border: none;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: aliceblue;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .hospital-name {
+    color: aliceblue;
+    padding: 15px;
+    margin-top: -20px;
+    font-size: 60px; /* or any other size you prefer */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .welcome-title {
+    color: aliceblue;
+    font-size: 30px; /* or any other size you prefer */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
